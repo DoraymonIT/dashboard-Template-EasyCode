@@ -1,5 +1,5 @@
 Zouani-Template
-##Important !!!!!
-Just Run " npm install";
-And Run " npm start " ;
-and Go to Localhost:4200/
+## Important !!!!!
+# 1- Just Run " npm install";
+# 2- And Run " npm start " ;
+# 3- and Go to Localhost:4200/

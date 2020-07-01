@@ -1,0 +1,63 @@
+<div class="container-fluid images"  style="padding-top: 100px;height: 100%;padding-bottom: 100px;">
+  <div class="row">
+    <div class="col-md-6 fs animate__animated animate__bounce  animate__fadeInLeft" 
+    style="padding-top: 20px;">
+      <!-- Choose want you want , they are 4 pictures : 2,3,4,5 -->
+      <img src="../assets/images/login5.svg" alt="Login Image" height="350px" />
+    </div>
+    <div class="col-md-5 animate__animated animate__bounce animate__fadeInRight">
+      <mat-card style=" box-shadow: 0px 13px 90px -7px #848d97;">
+        <div class="container">
+          <div class="row">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12" style="text-align: center;">
+                    <img
+                    src="../assets/images/angular-icon.svg"
+                    alt="Login Image"
+                    height="40px"
+                  />
+                  <h6>Login to your <b>account</b> </h6>
+                   </div>
+              
+               </div>
+               <hr>
+               <!-- <br> -->
+           </div>
+             
+           
+            
+            <div class="col-md-12">
+              <mat-form-field appearance="outline">
+                <mat-label
+                  ><i class="fas fa-user-tie"></i> Enter email</mat-label>
+                <input matInput placeholder="mail@gmail.com" type="email" required/>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <mat-form-field appearance="outline">
+                <mat-label><i class="fa fa-lock"></i> Password</mat-label>
+                <input matInput placeholder="*******" type="password"  required/>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row" >
+            <div class="col-md-3"></div>
+            <div class="col-md-6" >
+              <button class="btn btn-block" type="submit" mat-stroked-button style="background-color: white;
+              color: black;
+              
+              padding: 2px;" (click)="login()" >
+                <i class="fa fa-paper-plane" ></i> Sign In
+              </button>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>

@@ -1,36 +1,41 @@
-<div class="container-fluid images"  style="padding-top: 100px;height: 100%;padding-bottom: 100px;">
+<div class="container-fluid images" style="padding-top: 50px;height: 95vh;">
   <div class="row">
-    <div class="col-md-6 fs animate__animated animate__bounce  animate__fadeInLeft" 
-    style="padding-top: 20px;">
+    <div class="col-md-6 fs animate__animated animate__bounce  animate__fadeInLeft"
+         style="padding-left: 50px">
       <!-- Choose want you want , they are 4 pictures : 2,3,4,5 -->
-      <img src="../assets/images/login5.svg" alt="Login Image" height="350px" />
+
+        <h4 style="text-align: center;background-color:cadetblue;padding: 5px;font-family: fantasy;font-weight: bold">Auto-Ecole Sa3iida | Sya9a ta3lim sa3ida </h4>
+      <p style="background-color:cadetblue;padding: 5px">7na wa3riin fhadxy t3lim sya9a : <i class="fa fa-motorcycle"></i> Moto, <i class="fa fa-car"></i> Tomobile , Tracteur , Triporto ,....</p>
+
+      <img src="../assets/images/drive.svg" alt="Login Image" height="350px"/>
     </div>
-    <div class="col-md-5 animate__animated animate__bounce animate__fadeInRight">
-      <mat-card style=" box-shadow: 0px 13px 90px -7px #848d97;">
+    <div class="col-md-5 animate__animated animate__bounce animate__fadeInRight" style="padding-top: 90px">
+      <mat-card style=" box-shadow: 0px 13px 90px -7px #848d97;background-color: cadetblue;color: black">
         <div class="container">
           <div class="row">
-           <div class="container">
-               <div class="row">
-                   <div class="col-md-12" style="text-align: center;">
-                    <img
-                    src="../assets/images/angular-icon.svg"
-                    alt="Login Image"
-                    height="40px"
-                  />
-                  <h6>Login to your <b>account</b> </h6>
-                   </div>
-              
-               </div>
-               <hr>
-               <!-- <br> -->
-           </div>
-             
-           
-            
-            <div class="col-md-12">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+<!--                  <img-->
+<!--                    src="../assets/images/angular-icon.svg"-->
+<!--                    alt="Login Image"-->
+<!--                    height="40px"-->
+<!--                  />-->
+                  <i style="font-size: 45px;border: 4px solid black;border-radius: 70%;padding: 8px"  class="fa fa-car-crash"></i>
+                  <br>  <h6>Se connecter a votre <b>Compte</b></h6>
+                </div>
+
+              </div>
+              <hr>
+              <!-- <br> -->
+            </div>
+
+
+            <div class="col-md-12" style="color: black">
               <mat-form-field appearance="outline">
                 <mat-label
-                  ><i class="fas fa-user-tie"></i> Enter email</mat-label>
+                ><i class="fas fa-user-tie"></i> Enter email
+                </mat-label>
                 <input matInput placeholder="mail@gmail.com" type="email" required/>
               </mat-form-field>
             </div>
@@ -39,18 +44,18 @@
             <div class="col-md-12">
               <mat-form-field appearance="outline">
                 <mat-label><i class="fa fa-lock"></i> Password</mat-label>
-                <input matInput placeholder="*******" type="password"  required/>
+                <input matInput placeholder="*******" type="password" required/>
               </mat-form-field>
             </div>
           </div>
-          <div class="row" >
+          <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6" >
+            <div class="col-md-6">
               <button class="btn btn-block" type="submit" mat-stroked-button style="background-color: white;
               color: black;
-              
-              padding: 2px;" (click)="login()" >
-                <i class="fa fa-paper-plane" ></i> Sign In
+
+              padding: 2px;" (click)="login()">
+                <i class="fa fa-paper-plane"></i> <b> Se Connecter</b>
               </button>
             </div>
             <div class="col-md-3"></div>
@@ -61,3 +66,4 @@
     <div class="col-md-1"></div>
   </div>
 </div>
+

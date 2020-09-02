@@ -15,8 +15,8 @@
             alt="Login Image"
             height="40px"
           />
-          <br />
-          ANGULAR 9.0</span
+          <br/>
+          AUTO-ECOLE 2.0</span
         >
       </mat-list-item>
       <mat-list-item
@@ -52,7 +52,7 @@
         <h6><i class="fas fa-users"></i> <span class="then"></span> Clients</h6>
       </mat-list-item>
       <mat-divider></mat-divider>
-      <mat-list-item 
+      <mat-list-item
         [routerLink]="[{ outlets: { un: ['users'] } }]" routerLinkActive="active"
         class="list2"
         role="listitem"
@@ -69,13 +69,16 @@
       </mat-list-item>
       <mat-divider></mat-divider>
       <mat-list-item
-      [routerLink]="[{ outlets: { un: ['settings'] } }]" routerLinkActive="active"
-      class="list2"
-      role="listitem"
-    >
-      <h6> <i class="fas fa-cogs "></i> <span class="then"></span> Settings</h6>
-    </mat-list-item>
-    <mat-divider></mat-divider>
+        [routerLink]="[{ outlets: { un: ['settings'] } }]" routerLinkActive="active"
+        class="list2"
+        role="listitem"
+      >
+        <h6><i class="fas fa-cogs "></i> <span class="then"></span> Settings</h6>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <br><br><br><br>
+      <h6 style="text-align: center;color: white;font-size: 10px;bottom: 0">
+        © Coding with Love <i class="fas fa-heart    "></i> by BENDRIMOU | 2020 </h6>
     </mat-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -94,7 +97,7 @@
       />
       <form class="form-inline my-lg-0">
         <button mat-icon-button [matMenuTriggerFor]="menu" (click)="badge()">
-          <!-- #trigger="matMenuTrigger" 
+          <!-- #trigger="matMenuTrigger"
           (mouseenter)="trigger.closeMenu()" -->
           <i
             class="fas fa-bell"
@@ -106,7 +109,7 @@
             matBadgeColor="warn"
           ></i>
         </button>
-        <mat-menu class="my-class" #menu="matMenu" xPosition="before"  >
+        <mat-menu class="my-class" #menu="matMenu" xPosition="before">
           <div class="container-fluid" style="color: white;">
             <div class="row">
               <div class="col-md-2">
@@ -151,8 +154,8 @@
           <i class="fas fa-cog" style="font-size: 16px;"></i>
         </button>
         <mat-menu #menu2="matMenu">
-          <button mat-menu-item  [routerLink]="[{ outlets: { un: ['settings'] } }]"
-           routerLinkActive="active">
+          <button mat-menu-item [routerLink]="[{ outlets: { un: ['settings'] } }]"
+                  routerLinkActive="active">
             <i class="fas fa-cog"></i> Settings
           </button>
 
@@ -167,6 +170,9 @@
         </mat-menu>
       </form>
     </nav>
-    <router-outlet name="un"></router-outlet>
+    <section class="container-fluid " style="padding-top: 40px;background: white">
+      <router-outlet name="un"></router-outlet>
+    </section>
+
   </mat-sidenav-content>
 </mat-sidenav-container>

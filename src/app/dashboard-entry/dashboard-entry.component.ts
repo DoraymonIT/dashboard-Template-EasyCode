@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-dashboard-entry',
@@ -7,29 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardEntryComponent implements OnInit {
   constructor() {
-this.hideMatBadge = false;
-this.ex = 3;
-this.aujourdHui = new Date();
-}
-aujourdHui : Date ;
+    this.hideMatBadge = false;
+    this.ex = 3;
+    this.aujourdHui = new Date();
+  }
 
-opened: boolean;
+  aujourdHui: Date;
 
-panelOpenState = false;
-hideMatBadge: boolean;
-ex: number;
+  opened: boolean;
 
-ngOnInit(): void {
+  panelOpenState = false;
+  hideMatBadge: boolean;
+  ex: number;
 
-}
+  ngOnInit(): void {
 
-
-time = new Date();
-badge(){
-this.hideMatBadge = true;
-}
+  }
 
 
+  time = new Date();
+
+  badge() {
+    this.hideMatBadge = true;
+  }
 
 
 }

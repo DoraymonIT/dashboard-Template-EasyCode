@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { DashboardEntryComponent } from './dashboard-entry.component';
+import {DashboardEntryComponent} from './dashboard-entry.component';
 
 describe('DashboardEntryComponent', () => {
   let component: DashboardEntryComponent;
@@ -8,9 +8,9 @@ describe('DashboardEntryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DashboardEntryComponent ]
+      declarations: [DashboardEntryComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
